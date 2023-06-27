@@ -1,0 +1,270 @@
+*{ 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    box-sizing: border-box; 
+
+} 
+
+ 
+ 
+ 
+ 
+
+.header{ 
+
+    background-color: #06022c; 
+
+} 
+
+ 
+ 
+
+.header-nav{ 
+
+    width: 90%; 
+
+    margin: 0 auto; 
+
+    display: flex; 
+
+    justify-content: space-between; 
+
+ 
+ 
+
+} 
+
+.header-intro{ 
+
+    display: flex; 
+
+    align-items: center; 
+
+} 
+
+ 
+ 
+
+.header-intro-text{ 
+
+    font-size: 2.5em; 
+
+    color: aliceblue; 
+
+    border-bottom: 2px aliceblue; 
+
+} 
+
+ 
+ 
+
+.header-menubox{ 
+
+    width: 100%; 
+
+    display: flex; 
+
+    justify-content: flex-end; 
+
+} 
+
+.header-menu{ 
+    list-style: none;
+
+    flex-grow: 1; 
+
+    display: flex; 
+
+    flex-wrap: wrap; 
+
+    align-items: center; 
+
+    justify-content: space-evenly; 
+
+} 
+
+.header-menustuff{ 
+
+    text-align: center; 
+
+    background-color: #06022c; 
+
+    cursor: pointer; 
+
+    padding: 30px 40px; 
+
+    transition: .3s transform, .3s box-shadow; 
+
+ 
+ 
+
+} 
+
+.headermenustuff:hover{ 
+
+    transform: scale(1.1); 
+
+    box-shadow: 4px -3pc 34px 0 aliceblue; 
+
+} 
+
+ 
+ 
+
+.header-menulink{ 
+
+    color: aliceblue; 
+    text-decoration: none;
+
+    font-size: 1.2em; 
+
+ 
+ 
+
+} 
+
+.love-ado{
+    position: relative;
+    height: 100vh;
+}
+
+.love-adobackground{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+    object-fit: cover;
+    object-position: center center;
+
+}
+
+.love-adobackgroundmask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -5;
+    background: #06022c;
+
+}
+.cover{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cover-title{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cover-title-box{
+    height: 40%;
+    display: flex;
+    align-items: center;
+
+}
+.cover-title-texth2{
+    color: #06022c;
+    display: flex;
+    align-items: flex-start;
+
+}
+.cover-titlebigtextbox{
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.cover-titlebigtexth1{
+    font-size: 6em;
+    position: relative;
+}
+
+.cover-titlebigtexth1 a{
+    padding: 3px 20px;
+    text-decoration: none;
+    color: #06022c;
+    transition: .5 color;
+}
+.cover-titlebigtexth1 a:before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left:  0;
+    height: 100%;
+    width: 0;
+    background: #06022c;
+    border-radius: 5px;
+    transition: .5 width;
+}
+
+.cover-titlebigtextbox a:hover{
+    color: aliceblue;
+}
+
+.cover-buttonbox{
+    height: 50%;
+    align-items:center;
+}
+.cover-button{
+    font: 1.5em;
+    padding: 15px 30px;
+    background: #06022c;
+    color: aliceblue;
+    border: 0.2em solid aliceblue;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1em;
+    transition: 1em;
+    margin: 1em;
+    align-items: center;
+    top: 50%;
+    left: 45%;
+    
+
+}
+
+.cover-button:hover{
+    color: #9cacc0;
+}
+
+.person-content{
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap ;
+    margin: 200px 20px0;
+}
+
+
+
+.person-content{
+    background-color: #06022c;
+    background-position: center center;
+    left: 30%;
+}
+.person-items{
+    padding: 30px;
+    background-color: aliceblue;
+    margin: 30px;
+    height: 80%;
+
+}
